@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.heroProfile {
+  width: 200px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+.linkNav,
+.linkHero {
+  text-decoration: none;
+  padding: 0 20px;
+}
