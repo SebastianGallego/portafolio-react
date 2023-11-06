@@ -1,4 +1,3 @@
-//import React from "react";
 //Importo las imagenes
 import Vector from "@/assets/images/vector.png";
 import "bootstrap/dist/css/bootstrap.css";
@@ -11,7 +10,7 @@ export default function MainHeader() {
         <h3 className="menuTitle">Sebastián Gallego</h3>
       </div>
 
-      <nav className="menuNav col-8 justify-content-end">
+      <nav className="menuNav  justify-content-end">
         <a className="linkNav" href="#sobreMi">
           Sobre mi
         </a>

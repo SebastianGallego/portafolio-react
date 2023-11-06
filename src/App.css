@@ -25,3 +25,22 @@ li {
   text-decoration: none;
   padding: 0 20px;
 }
+
+/*Paleta de colores*/
+:root {
+  --corlorFondoCarbono: #454443;
+  --colorFondoNegro: #000000;
+  --colorFondoPlomo: #333;
+  --colorlink: #000;
+  --colorBotones: #ff8b00;
+  --colorTexto: #000000;
+  --colorTextoClaro: #fefefe8f;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Raleway";
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
