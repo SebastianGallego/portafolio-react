@@ -1,0 +1,9 @@
+.linkNav {
+  text-decoration: none;
+  color: var(--colorBotones);
+  font-size: 20px;
+}
+
+.menuHeader {
+  background-color: var(--colorFondoNegro);
+}

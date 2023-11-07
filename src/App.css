@@ -5,27 +5,6 @@
   text-align: center;
 }
 
-.heroProfile {
-  width: 200px;
-  border-radius: 50%;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-li {
-  list-style: none;
-  display: inline;
-}
-
-.linkNav,
-.linkHero {
-  text-decoration: none;
-  padding: 0 20px;
-}
-
 /*Paleta de colores*/
 :root {
   --corlorFondoCarbono: #454443;
@@ -43,4 +22,8 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1;
+}
+
+#root {
+  background-color: var(--corlorFondoCarbono);
 }

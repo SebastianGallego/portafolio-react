@@ -1,26 +1,9 @@
 import React from "react";
-//Importo los iconos de FontAwesome
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import {
-  faLinkedin,
-  faGithub,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons";
-import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
-library.add(faLinkedin, faGithub, faInstagram, faFilePdf);
 
 import "./CustomBtn.css";
 
 export default function CustomButton(props) {
-  const {
-    text,
-    icono,
-    backgroundColor,
-    borderColor,
-    textColor,
-    link, // Nueva propiedad para el enlace
-  } = props;
+  const { text, icon, backgroundColor, borderColor, textColor, link } = props;
 
   function handleButtonClick() {
     if (link) {
@@ -35,47 +18,22 @@ export default function CustomButton(props) {
   };
 
   return (
-    <button
-      className="linkHero"
-      style={buttonStyle}
-      onClick={handleButtonClick}
-    >
-      {text}
-      <FontAwesomeIcon className="ps-2" icon={["fas", icono]} />
-    </button>
+    <>
+      <button
+        className="linkHero btn d-flex justify-content-center align-items-center gap-2"
+        style={buttonStyle}
+        onClick={handleButtonClick}
+      >
+        {text}
+        {icon && <span className={`bi bi-${icon}`}></span>}
+      </button>
+    </>
   );
 }
 
-/*
-
-
-  <a className="linkHero" href="https://github.com/SebastianGallego">
-              Github
-              <FontAwesomeIcon className="ps-2" icon={faGithub} />
-            </a>
-            <a
-              className="linkHero"
-              href="https://www.linkedin.com/in/sebastiangallego-dev/"
-            >
-              Linkedin
-              <FontAwesomeIcon className="ps-2" icon={faLinkedin} />
-            </a>
-            <a
-              className="linkHero"
-              href="https://www.instagram.com/stavelot1978/"
-            >
-              Instagram
-              <FontAwesomeIcon className="ps-2" icon={faInstagram} />
-            </a>
-            <a className="linkHero" href="">
-              Curriculum
-              <FontAwesomeIcon className="ps-2" icon={faFilePdf} />
-            </a>
-*/
-
-/* Aca tiene que recibir:
+/* Aca tiene que recibir:  
   - Texto
-  - Icono
+  - Icono    github linkedin instagram filetype-pd
   - background Color
   - Border Color 
   - Text Color
