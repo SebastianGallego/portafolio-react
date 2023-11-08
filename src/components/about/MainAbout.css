@@ -1,0 +1,28 @@
+/*Sección About*/
+
+.aboutContainer {
+  background-color: var(--colorFondoPlomo);
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+.aboutTitulo {
+  color: var(--colorTextoClaro);
+  font-size: clamp(1.2rem, 4vw, 2rem);
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+.aboutParrafo {
+  color: var(--colorTextoClaro);
+  font-size: 28px;
+  max-width: 1200px;
+  width: 100%;
+}
+
+.sectionAbout {
+  box-sizing: border-box;
+  padding: 4rem 2rem;
+  width: 100%;
+  background-color: var(--colorFondoPlomo);
+}

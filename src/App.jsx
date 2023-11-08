@@ -4,6 +4,9 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 
 import MainHeader from "@/components/header/MainHeader.jsx";
 import MainHero from "@/components/hero/MainHero";
+import MainAbout from "@/components/about/MainAbout";
+import MainSkills from "@/components/skills/MainSkills";
+
 import MainFooter from "@/components/footer/MainFooter";
 
 function App() {
@@ -11,6 +14,8 @@ function App() {
     <>
       <MainHeader />;
       <MainHero />;
+      <MainAbout />;
+      <MainSkills />;
       <MainFooter />;
     </>
   );

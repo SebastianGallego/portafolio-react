@@ -1,0 +1,24 @@
+07/11
+
+Tengo que ver como hacer un componente que sirva tanto para 
+los skills y hobbies.
+Que lea de un json que tenga { titulo, icono }
+El componente va a recorrer un array
+
+usar los iconos de font-awesome
+
+
+Estudios: Despues otro componente que tenga las cards de formacion
+academica.
+
+Cursos: unas card de Cursos
+
+XP: card de proyectos 
+
+Formulario de contacto
+
+Footer
+
+
+
+

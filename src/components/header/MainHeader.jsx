@@ -1,18 +1,18 @@
 //Importo las imagenes
 import Vector from "@/assets/images/vector.png";
-import "bootstrap/dist/css/bootstrap.css";
+//import "bootstrap/dist/css/bootstrap.css";
 import "@/App.css";
 import "@/components/header/MainHeader.css";
 
 export default function MainHeader() {
   return (
-    <header className="menuHeader d-flex align-items-center">
-      <div className="container-flex  menuLogoName d-flex align-items-center">
-        <img src={Vector} className="menuLogo pe-2" />
+    <header className="menuHeader container-fluid d-flex align-items-center">
+      <div className="container  menuLogoName d-flex align-items-center">
+        <img src={Vector} className="menuLogo " />
         <h3 className="menuTitle">Sebastián Gallego</h3>
       </div>
 
-      <nav className="menuNav d-flex gap-5 justify-content-end m-auto">
+      <nav className="menuNav container-fluid d-flex gap-4 justify-content-end ">
         <a className="linkNav" href="#sobreMi">
           Sobre mi
         </a>

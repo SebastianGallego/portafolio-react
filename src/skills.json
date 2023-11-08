@@ -1,0 +1,44 @@
+[
+    {
+      "name": "HTML",
+      "icon": "bi bi-html5"
+    },
+    {
+      "name": "CSS",
+      "icon": "bi bi-css3"
+    },
+    {
+      "name": "JavaScript",
+      "icon": "bi bi-javascript"
+    },
+
+    {
+        "name": "Bootstrap",
+        "icon": "bi bi-bootstrap"
+    },
+
+    {
+        "name": "C-sharp",
+        "icon": "bi bi-c-circle"
+    },
+    
+    {
+        "name": "React",
+        "icon": "bi bi-filetype-jsx"
+    }, 
+    {
+        "name": "Python",
+        "icon": "bi bi-html5"
+    },
+
+    {
+        "name": "Arduino",
+        "icon": "bi bi-css3"
+    }
+    
+
+
+
+
+  ]
+  
