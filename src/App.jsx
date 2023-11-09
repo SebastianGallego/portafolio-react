@@ -6,9 +6,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import MainHeader from "@/components/header/MainHeader.jsx";
 import MainHero from "@/components/hero/MainHero";
 import MainAbout from "@/components/about/MainAbout";
-import MainSkills from "@/components/skills/MainSkills";
-import MainHobbies from "@/components/hobbies/MainHobbies";
 import MainFooter from "@/components/footer/MainFooter";
+import CardContainer from "./components/cardContainer/CardContainer";
 
 function App() {
   return (
@@ -16,8 +15,8 @@ function App() {
       <MainHeader />
       <MainHero />
       <MainAbout />
-      <MainSkills />
-      <MainHobbies />
+      <CardContainer title="Skills" jsonPath="/skills.json" />
+      <CardContainer title="Hobbies" jsonPath="/hobbies.json" />
       <MainFooter />
     </>
   );

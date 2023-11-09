@@ -4,20 +4,21 @@ import Card from "./Card.jsx"; // Reutiliza el componente SkillCard
 export default function CardContainer({ title, jsonPath }) {
   const [data, setData] = useState([]);
 
-  const containerTitulo = {
+  const ContainerTitulo = {
     color: "var(--colorBotones",
     fontSize: "2.6rem",
     textAlign: "center",
     padding: "20px",
   };
 
-  const cardContainer = {
+  const CardsContainer = {
     display: "flex",
-    gap: "20px",
+    gap: "25px",
     flexWrap: "wrap",
-    width: "30%",
+    width: "50%",
     justifyContent: "center",
     margin: "0 auto",
+    paddingBottom: "50px",
   };
 
   useEffect(() => {
@@ -29,11 +30,13 @@ export default function CardContainer({ title, jsonPath }) {
   }, [jsonPath]);
 
   return (
-    <div style={cardContainer}>
-      <h2 style={containerTitulo}>{title}</h2>
-      {data.map((item, index) => (
-        <Card key={index} name={item.name} icon={item.icon} />
-      ))}
+    <div className="d-flex flex-column">
+      <h2 style={ContainerTitulo}>{title}</h2>
+      <div style={CardsContainer}>
+        {data.map((item, index) => (
+          <Card key={index} name={item.name} icon={item.icon} />
+        ))}
+      </div>
     </div>
   );
 }
