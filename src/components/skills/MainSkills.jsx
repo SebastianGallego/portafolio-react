@@ -21,7 +21,7 @@ export default function MainSkills() {
 
   return (
     <>
-      <section className="sectionSkills" id="skills">
+      <section className="sectionSkills mb-3" id="skills">
         <h3 style={skillsTitulo}>Skills</h3>
         <div style={skillsContainer}>
           <CardSkill />

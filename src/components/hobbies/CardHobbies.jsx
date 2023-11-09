@@ -11,10 +11,11 @@ const skillCardStyle = {
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
-  width: "125px",
-  height: "100px",
+  justifyItems: "center",
+  width: "140px",
+  height: "110px",
   backgroundColor: "var(--colorFondoPlomo)",
-  padding: "20px",
+  padding: "10px",
   borderRadius: "20px",
 };
 
@@ -24,7 +25,7 @@ const skillStyle = {
 };
 function SkillCard({ name, icon }) {
   return (
-    <div className="skillCardStyle d-flex flex-column align-items-center">
+    <div style={skillCardStyle}>
       <FontAwesomeIcon icon={icon} style={skillStyle} />
       <span className="text-light"> {name}</span>
     </div>
@@ -36,7 +37,7 @@ export default function CardSkill() {
 
   useEffect(() => {
     // Cargar los datos de skills desde el archivo JSON
-    fetch("/skills.json")
+    fetch("/hobbies.json")
       .then((response) => response.json())
       .then((data) => setSkills(data))
       .catch((error) => console.error("Error:", error));
@@ -52,10 +53,3 @@ export default function CardSkill() {
     </>
   );
 }
-
-/* 
-<FontAwesomeIcon icon={["fab", "html5"]} style={skillStyle} />
-      <span className="skillsName text-light"> HTML 5</span>
-src\skills.json
-
-*/

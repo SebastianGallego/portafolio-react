@@ -1,0 +1,34 @@
+[
+    {
+      "name": "Trekking",
+      "icon": "fas fa-person-hiking"
+    },
+
+
+
+    {
+      "name": "Viajar",
+      "icon": "fas fa-mountain"
+    },
+    {
+      "name": "Automovilismo",
+      "icon": "fas fa-flag-checkered"
+    },
+
+    {
+        "name": "Nadar",
+        "icon": "fas fa-person-swimming"
+    },
+
+    {
+        "name": "Música",
+        "icon": "fas fa-music"
+    },
+    
+    {
+        "name": "Mountain bike",
+        "icon": "fas fa-person-biking"
+    }
+
+  ]
+  

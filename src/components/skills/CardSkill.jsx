@@ -2,19 +2,21 @@ import React, { useState, useEffect } from "react";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
+import { fas } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // Agrega los íconos "fa-brands" al objeto library
-library.add(fab);
+library.add(fab, fas);
 
 const skillCardStyle = {
   display: "flex",
   flexDirection: "column",
   alignItems: "center",
-  width: "125px",
-  height: "100px",
+  justifyItems: "center",
+  width: "140px",
+  height: "110px",
   backgroundColor: "var(--colorFondoPlomo)",
-  padding: "20px",
+  padding: "10px",
   borderRadius: "20px",
 };
 
@@ -24,7 +26,7 @@ const skillStyle = {
 };
 function SkillCard({ name, icon }) {
   return (
-    <div className="skillCardStyle d-flex flex-column align-items-center">
+    <div style={skillCardStyle}>
       <FontAwesomeIcon icon={icon} style={skillStyle} />
       <span className="text-light"> {name}</span>
     </div>
@@ -45,7 +47,7 @@ export default function CardSkill() {
   return (
     <>
       {skills.map((skill, index) => (
-        <div style={skillCardStyle} className="skillCard">
+        <div style={skillCardStyle}>
           <SkillCard key={index} name={skill.name} icon={skill.icon} />
         </div>
       ))}
