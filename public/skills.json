@@ -1,39 +1,39 @@
 [
     {
       "name": "HTML",
-      "icon": "bi bi-html5"
+      "icon": "fab fa-html5"
     },
     {
       "name": "CSS",
-      "icon": "bi bi-css3"
+      "icon": "fab fa-css3"
     },
     {
       "name": "JavaScript",
-      "icon": "bi bi-javascript"
+      "icon": "fab fa-js"
     },
 
     {
         "name": "Bootstrap",
-        "icon": "bi bi-bootstrap"
+        "icon": "fab fa-bootstrap"
     },
 
     {
         "name": "C-sharp",
-        "icon": "bi bi-c-circle"
+        "icon": "fab fa-dev"
     },
     
     {
         "name": "React",
-        "icon": "bi bi-filetype-jsx"
+        "icon": "fab fa-react"
     }, 
     {
         "name": "Python",
-        "icon": "bi bi-html5"
+        "icon": "fab fa-python"
     },
 
     {
         "name": "Arduino",
-        "icon": "bi bi-css3"
+        "icon": "fab fa-bilibili"
     }
     
 

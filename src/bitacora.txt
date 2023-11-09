@@ -20,5 +20,10 @@ Formulario de contacto
 Footer
 
 
+08/11
+Ya esta el componente que crea las card de skills y 
+el componentes que crea el contenedorder
 
+tengo que ver como hacer para que se puedan reutilizar 
+ambos para hacer los hobbies
 

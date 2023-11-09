@@ -1,6 +1,6 @@
 import React from "react";
 import "@/App.css";
-import CardSkill from "@/components/skills/CardSkill";
+import CardHobbies from "@/components/hobbies/CardHobbies";
 
 export default function MainSkills() {
   const skillsTitulo = {
@@ -22,9 +22,9 @@ export default function MainSkills() {
   return (
     <>
       <section className="sectionSkills" id="skills">
-        <h3 style={skillsTitulo}>Skills</h3>
+        <h3 style={skillsTitulo}>Hobbies</h3>
         <div style={skillsContainer}>
-          <CardSkill />
+          <CardHobbies />
         </div>
       </section>
     </>
