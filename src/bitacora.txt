@@ -1,29 +1,44 @@
-07/11
+07/11:
 
-Tengo que ver como hacer un componente que sirva tanto para 
+-Tengo que ver como hacer un componente que sirva tanto para 
 los skills y hobbies.
-Que lea de un json que tenga { titulo, icono }
-El componente va a recorrer un array
-
+-Que lea de un json que tenga { titulo, icono }
+-El componente va a recorrer un array
 usar los iconos de font-awesome
 
 
-Estudios: Despues otro componente que tenga las cards de formacion
+-Estudios: Despues otro componente que tenga las cards de formacion
 academica.
 
-Cursos: unas card de Cursos
+-Cursos: unas card de Cursos
 
-XP: card de proyectos 
+-XP: card de proyectos 
 
-Formulario de contacto
+-Formulario de contacto
 
-Footer
+-Footer
 
 
 08/11
-Ya esta el componente que crea las card de skills y 
+-Ya esta el componente que crea las card de skills y 
 el componentes que crea el contenedorder
 
-tengo que ver como hacer para que se puedan reutilizar 
-ambos para hacer los hobbies
+-Se reutiliza el componente de card para skills y para 
+ los hobbies
+
+
+09/11:
+- Componente de estudios con el Main y las card de
+  los estudios 
+
+
+TO-DO:
+- Agregar algunos efectos de hover
+- Cursos 
+- Alguna Animacion 
+- XP 
+- Contacto
+- Footer (redes)
+
+
 

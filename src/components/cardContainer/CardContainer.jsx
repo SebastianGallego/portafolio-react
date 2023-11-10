@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Card from "./Card.jsx"; // Reutiliza el componente SkillCard
+import Card from "./Card.jsx";
 
 export default function CardContainer({ title, jsonPath }) {
   const [data, setData] = useState([]);
@@ -22,7 +22,6 @@ export default function CardContainer({ title, jsonPath }) {
   };
 
   useEffect(() => {
-    // Cargar los datos desde el archivo JSON
     fetch(jsonPath)
       .then((response) => response.json())
       .then((jsonData) => setData(jsonData))

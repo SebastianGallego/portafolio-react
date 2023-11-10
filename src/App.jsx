@@ -8,6 +8,7 @@ import MainHero from "@/components/hero/MainHero";
 import MainAbout from "@/components/about/MainAbout";
 import MainFooter from "@/components/footer/MainFooter";
 import CardContainer from "./components/cardContainer/CardContainer";
+import MainStudies from "./components/studies/MainStudies.jsx";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <MainAbout />
       <CardContainer title="Skills" jsonPath="/skills.json" />
       <CardContainer title="Hobbies" jsonPath="/hobbies.json" />
+      <MainStudies />
       <MainFooter />
     </>
   );
