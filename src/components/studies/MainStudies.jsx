@@ -3,23 +3,21 @@ import CardStudies from "@/components/studies/CardStudies.jsx";
 
 export default function MainStudies() {
   const ContainerTitulo = {
-    color: "var(--colorBotones",
+    color: "var(--colorBotones)",
     fontSize: "2.6rem",
     textAlign: "center",
-    padding: "20px",
   };
 
   const containerStyle = {
-    display: "flex",
-    flexDirection: "column",
     backgroundColor: "var(--colorFondoPlomo)",
-    padding: "20px",
   };
 
+  const containerStudies = "d-flex flex-column py-5 text-center ";
+
   return (
-    <div style={containerStyle}>
+    <div style={containerStyle} className={containerStudies}>
       <h2 style={ContainerTitulo}>Formación Académica</h2>
-      <div className="container d-flex gap-5 justify-content-center">
+      <div className="container d-flex gap-5 justify-content-center py-5">
         <CardStudies
           titleStudie="YO PROGRAMO"
           textStudie="Argentina Programa"
