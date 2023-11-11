@@ -6,7 +6,7 @@ export default function MainAbout() {
     <>
       <section className="sectionAbout" id="about">
         <div className="container aboutContainer text-start py-5 ">
-          <h3 className="fw-bold">Sobre mi</h3>
+          <h3 className="sectionTitulo">Sobre mi</h3>
           <p className="aboutParrafo fs-4">
             ¡Hola! Soy Sebastián Gallego, tengo 45 años, vivo en Argentina.
           </p>

@@ -2,11 +2,11 @@ import React from "react";
 
 export default function CardStudies({ titleStudie, textStudie, imgLink }) {
   const imageCardStyle = {
-    width: "350px",
+    width: "260px",
   };
 
   const cardStyle = {
-    width: "400px",
+    width: "300px",
     borderRadius: "10px",
     backgroundColor: "white",
     padding: "5px",
@@ -15,22 +15,12 @@ export default function CardStudies({ titleStudie, textStudie, imgLink }) {
     justifyContent: "space-around",
   };
 
-  const cardTitleStyle = {
-    fontSize: "1.6rem",
-    fontWeight: "bold",
-  };
-
-  const cardTextStyle = {
-    fontSize: "1.3rem",
-    fontWeight: "bold",
-  };
-
   return (
     <div style={cardStyle}>
       <img src={imgLink} style={imageCardStyle} alt={titleStudie} />
-      <div className="cardBody ">
-        <h5 style={cardTitleStyle}>{titleStudie}</h5>
-        <p style={cardTextStyle}>{textStudie}</p>
+      <div className="cardBody text-center">
+        <h5 className="">{titleStudie}</h5>
+        <p>{textStudie}</p>
       </div>
     </div>
   );

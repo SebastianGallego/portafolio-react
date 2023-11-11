@@ -4,13 +4,6 @@ import Card from "./Card.jsx";
 export default function CardContainer({ title, jsonPath }) {
   const [data, setData] = useState([]);
 
-  const ContainerTitulo = {
-    color: "var(--colorOrange)",
-    fontSize: "2.6rem",
-    textAlign: "center",
-    padding: "20px",
-  };
-
   const CardsContainer = {
     display: "flex",
     gap: "25px",
@@ -29,8 +22,8 @@ export default function CardContainer({ title, jsonPath }) {
   }, [jsonPath]);
 
   return (
-    <section className="cardContainer d-flex flex-column">
-      <h2 style={ContainerTitulo}>{title}</h2>
+    <section className="cardContainer d-flex flex-column py-4">
+      <h2 className="sectionTitulo ">{title}</h2>
       <div style={CardsContainer}>
         {data.map((item, index) => (
           <Card key={index} name={item.name} icon={item.icon} />

@@ -33,6 +33,12 @@ body {
   background-color: var(--colorPlomo);
 }
 
+.sectionTitulo {
+  color: var(--colorOrange);
+  font-size: 35px;
+  text-align: center;
+}
+
 /* **********   Medio Queries  ********** */
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {

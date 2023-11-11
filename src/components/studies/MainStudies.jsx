@@ -2,19 +2,10 @@ import React from "react";
 import CardStudies from "@/components/studies/CardStudies.jsx";
 
 export default function MainStudies() {
-  const ContainerTitulo = {
-    color: "var(--colorOrange)",
-    fontSize: "2.6rem",
-    textAlign: "center",
-  };
-
   return (
-    <section
-      className="containerStudies d-flex flex-column py-5 text-center "
-      id="studies"
-    >
-      <h2 style={ContainerTitulo}>Formación Académica</h2>
-      <div className="container d-flex gap-5 justify-content-center py-5">
+    <section className="containerStudies d-flex flex-column py-5 " id="studies">
+      <h2 className="sectionTitulo">Formación Académica</h2>
+      <div className="container d-flex flex-column gap-5 align-items-center justify-content-center py-5 flex-xxl-row ">
         <CardStudies
           titleStudie="YO PROGRAMO"
           textStudie="Argentina Programa"
