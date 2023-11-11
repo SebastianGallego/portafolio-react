@@ -4,7 +4,7 @@ import "@/components/about/MainAbout.css";
 export default function MainAbout() {
   return (
     <>
-      <section className="sectionAbout" id="sobreMi">
+      <section className="sectionAbout" id="about">
         <div className="aboutContainer text-start">
           <h3 className="aboutTitulo">Sobre mi</h3>
           <p className="aboutParrafo">

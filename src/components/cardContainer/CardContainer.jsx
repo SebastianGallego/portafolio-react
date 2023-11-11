@@ -5,7 +5,7 @@ export default function CardContainer({ title, jsonPath }) {
   const [data, setData] = useState([]);
 
   const ContainerTitulo = {
-    color: "var(--colorBotones",
+    color: "var(--colorOrange)",
     fontSize: "2.6rem",
     textAlign: "center",
     padding: "20px",
@@ -29,13 +29,13 @@ export default function CardContainer({ title, jsonPath }) {
   }, [jsonPath]);
 
   return (
-    <div className="d-flex flex-column">
+    <section className="cardContainer d-flex flex-column">
       <h2 style={ContainerTitulo}>{title}</h2>
       <div style={CardsContainer}>
         {data.map((item, index) => (
           <Card key={index} name={item.name} icon={item.icon} />
         ))}
       </div>
-    </div>
+    </section>
   );
 }

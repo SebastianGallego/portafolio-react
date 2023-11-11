@@ -30,11 +30,3 @@ export default function CustomButton(props) {
     </>
   );
 }
-
-/* Aca tiene que recibir:  
-  - Texto
-  - Icono    github linkedin instagram filetype-pd
-  - background Color
-  - Border Color 
-  - Text Color
-*/

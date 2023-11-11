@@ -15,14 +15,14 @@ const cardStyle = {
   justifyContent: "center",
   width: "140px",
   height: "110px",
-  backgroundColor: "var(--colorFondoPlomo)",
+  backgroundColor: "var(--colorPlomo)",
   padding: "15px",
   borderRadius: "20px",
 };
 
 const iconStyle = {
   fontSize: "45px",
-  color: "var(--colorBotones)",
+  color: "var(--colorOrange)",
 };
 export default function Card({ name, icon }) {
   return (

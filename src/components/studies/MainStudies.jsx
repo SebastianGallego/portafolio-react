@@ -3,19 +3,16 @@ import CardStudies from "@/components/studies/CardStudies.jsx";
 
 export default function MainStudies() {
   const ContainerTitulo = {
-    color: "var(--colorBotones)",
+    color: "var(--colorOrange)",
     fontSize: "2.6rem",
     textAlign: "center",
   };
 
-  const containerStyle = {
-    backgroundColor: "var(--colorFondoPlomo)",
-  };
-
-  const containerStudies = "d-flex flex-column py-5 text-center ";
-
   return (
-    <div style={containerStyle} className={containerStudies}>
+    <section
+      className="containerStudies d-flex flex-column py-5 text-center "
+      id="studies"
+    >
       <h2 style={ContainerTitulo}>Formación Académica</h2>
       <div className="container d-flex gap-5 justify-content-center py-5">
         <CardStudies
@@ -39,6 +36,6 @@ export default function MainStudies() {
           imgLink="./images/logoAlura.png"
         />
       </div>
-    </div>
+    </section>
   );
 }

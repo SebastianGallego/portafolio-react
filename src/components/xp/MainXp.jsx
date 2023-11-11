@@ -3,11 +3,11 @@ import CardXp from "./CardXp";
 
 export default function MainXp() {
   return (
-    <div className="py-5 ">
+    <section className="xpContainer py-5 " id="xp">
       <h2>Proyectos</h2>
       <div>
         <CardXp />;
       </div>
-    </div>
+    </section>
   );
 }
