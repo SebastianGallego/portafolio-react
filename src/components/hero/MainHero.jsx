@@ -11,11 +11,11 @@ export default function MainHero() {
           <h2 className="heroTitulo ">
             Hola, Soy Sebastián Gallego - Desarrollador web
           </h2>
-          <h3 className="heroSubTitulo  ">
+          <h2 className="heroSubTitulo  ">
             {" "}
             Me formé en la Universidad de Quilmes y en la Universidad de Tres de
             Febrero. Actualmente estoy estudiando Desarrollo Web.{" "}
-          </h3>
+          </h2>
 
           <div className="containter-md d-flex gap-5 align-items-center  flex-column flex-lg-row">
             <CustomBtn
